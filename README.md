@@ -8,8 +8,8 @@ The goal of this website is to showcase my professional identity as a **Frontend
 
 ## 💻 Built With
 
-- **HTML5** – Structure of the website
-- **CSS3** – Styling and layout
+- **HTML** – Structure of the website
+- **CSS** – Styling and layout
 - **JavaScript** – Interactivity and image slider functionality
 - **Font Awesome** – Icons for social links and contact section
 
