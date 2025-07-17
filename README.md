@@ -44,7 +44,7 @@ portfolio/
 
 Clone the repository:
 
-git clone https://github.com/your-username/your-portfolio-repo.git
+git clone https://github.com/JunaidAkhtar-star/DizMe.git
 cd your-portfolio-repo
 
 
