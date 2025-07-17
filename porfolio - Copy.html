@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" xintegrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>MY PORTFOLIO</title>
+</head>
+<body>
+    <div class="animated-bg-overlay"></div>
+
+    <div class="container">
+        <!-- Box 1: Hero Section -->
+        <div class="box-section">
+            <div class="navbar">
+                <img src="dark.png" alt="Logo" class="navbar-logo">
+                <div class="navbar-buttons">
+                    <a href="index.html" class="nav-button active">Home</a>
+                    <a href="about.html" class="nav-button">About</a>
+                    <a href="blog.html" class="nav-button">Blog</a>
+                    <a href="#contact" class="nav-button">Contact</a>
+                    <a href="#" class="nav-button">Download CV</a>
+                </div>
+            </div>
+            <div class="hero-content" id="hero-section">
+                <div class="hero-text">
+                    <h3>Hello, I'm</h3>
+                    <h1>Junaid Akhtar</h1>
+                    <h4>A <span class="highlight">Front-End Designer</span> From <span class="location">India</span></h4>
+                    <p class="hero-description">
+                        I'm Front-End designer based in India, and I'm very passionate and dedicated to my work, and I'm preparing to be a cyber security.
+                    </p>
+                    <a href="mailto:akhtarjunaid82099@gmail.com" class="email-button">EMAIL</a>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/jumaid.akhtar.3"target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/?hl=en"target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/junaid-akhtar-7a525b286/"target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/JunaidAkhtar-star"target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <img class="hero-image" src="my.png" alt="Junaid Akhtar">
+            </div>
+        </div>
+
+        <!-- Box 3: Skills/About Section -->
+        <div class="box-section skills-section">
+            <div class="box4">
+                <h2>Portfolio</h2>
+                <h1>My Amazing Skills</h1>
+                <p>Most common methods for designing websites that work well on desktop is responsive and adaptive design</p>
+            </div>
+            <div class="fslide">
+                <div class="slide" id="imageSlider">
+                    <img src="frontend.png" alt="Frontend Design">
+                    <img src="hack.png" alt="Cybersecurity Skills">
+                    <img src="https://placehold.co/600x400/ADD8E6/FFFFFF?text=Web+Development" alt="Web Development">
+                    <img src="https://placehold.co/600x400/FFD700/000000?text=UI/UX+Design" alt="UI/UX Design">
+                    <img src="cactus.png" alt="Graphic Design">
+                    <!-- Duplicate of the first image for seamless looping -->
+                    <img src="frontend.png" alt="Frontend Design (Duplicate)">
+                </div>
+            </div>
+        </div>
+
+        <!-- Last Box: Contact Section -->
+        <div class="box-section contact-section" id="contact">
+            <div class="inbox1">
+                <h2>contact me</h2>
+                <h1>I Want To Hear You</h1>
+                <div class="description">
+                    <p>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday</p>
+                </div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info-cards">
+                    <!-- Phone Card -->
+                    <div class="contact-card">
+                        <div class="icon-circle" style="background-color: #ECE8FD;">
+                            <img src="phone.png" alt="Phone Icon">
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 7978459055</p>
+                        </div>
+                    </div>
+                    <!-- Address Card -->
+                    <a href="https://www.google.com/maps/search/?api=1&query=Bhubaneswar" target="_blank" class="contact-card address-link">
+                        <div class="icon-circle" style="background-color: bisque;">
+                            <img src="map.png" alt="Map Icon">
+                        </div>
+                        <div>
+                            <h3>Address</h3>
+                            <p>20, Somewhere in world (Bhubaneswar)</p>
+                        </div>
+                    </a>
+                    <!-- Email Card -->
+                    <div class="contact-card">
+                        <div class="icon-circle" style="background-color: rgb(204, 235, 213);">
+                            <img src="mail.png" alt="Mail Icon">
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:akhtarjunaid82099@gmail.com">akhtarjunaid82099@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="/action.php">
+                        <input type="text" placeholder="Your Name">
+                        <input type="text" placeholder="Your E-mail">
+                        <input type="text" placeholder="Your Phone">
+                        <input type="text" placeholder="Subject">
+                        <textarea placeholder="Write your message here"></textarea>
+                        <button type="submit" class="submit-button">Submit Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-content">
+                <h3 class="footer-text">
+                    Developed with love by <span>Junaid Akhtar</span> <i class="fa-regular fa-copyright"></i> <span>2024</span>
+                </h3>
+                <div class="footer-links">
+                    <a href="#" class="terms">Terms And Conditions</a>
+                    <a href="#" class="privacy">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="portfolio.js"></script>
+</body>
+</html>
