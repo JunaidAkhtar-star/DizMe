@@ -1,7 +1,6 @@
 # 🌐 Junaid Akhtar – Portfolio Website
 
 This is my personal portfolio website, fully developed using HTML, CSS, and JavaScript. It represents who I am, what I do, and how people can connect with me. The website is designed to be responsive and visually appealing while maintaining clean and structured code.
-Front Page
 ![image alt](https://github.com/JunaidAkhtar-star/DizMe/blob/ecd47a6a4d8fd425c77e2e617cac27e7b73da1a9/front.png)
 ## 📌 About the Website
 
